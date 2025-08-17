@@ -1,0 +1,16 @@
+{
+    "name": "Songsterr Helper",
+    "description": "Make your guitar lessons easier",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {},
+    "action": {},
+    "permissions": [],
+    "background":{},
+    "content_scripts": [
+        {
+          "matches": ["https://www.songsterr.com/*"],
+          "js": ["index.js"]
+        }
+    ]
+}
